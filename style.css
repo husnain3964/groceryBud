@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    position: absolute;
+    top: 50px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+
+}
+button{
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgb(117, 117, 117), white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.todoOO {
+    width: 60%;
+    height: 60vh;
+    border: 1px solid black;
+    display: flex;
+    /* justify-content: center; */
+    top: 10px;
+    background-color: white;
+    border-radius: 30px;
+    flex-direction: column;
+    position: relative;
+    padding: 50px;
+    overflow-y: scroll;
+}
+
+.list{
+    margin-top: 30px;
+ list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    font-size: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+  letter-spacing: 1px ;
+  font-weight: bold;
+}
+
+.inputt {
+    /* width: 100%; */
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    padding-bottom: 30px;
+    /* border-bottom: 2px solid black; */
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    padding: 20px;
+
+
+}
+
+/* button {
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+} */
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px;
+}
+
+
+@media screen and (max-width:500px) {
+  
+.todoOO {
+    width: 90%;
+    height: 50vh;
+    border: 1px solid black;
+    display: flex;
+    /* justify-content: center; */
+    top: 10px;
+    background-color: white;
+    border-radius: 30px;
+    flex-direction: column;
+    /* position: relative; */
+    padding: 20px;
+    overflow-y: scroll;
+}
+input {
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    padding: 20px;
+
+
+}
+
+.inputt {
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    padding-bottom: 30px;
+    /* border-bottom: 2px solid black; */
+}
+
+}
